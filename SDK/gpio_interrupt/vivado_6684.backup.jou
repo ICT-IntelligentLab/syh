@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Nov 27 10:04:07 2025
+# Process ID: 6684
+# Current directory: D:/ZynqProject/SDK/gpio_interrupt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3764 D:\ZynqProject\SDK\gpio_interrupt\gpio_interrupt.xpr
+# Log file: D:/ZynqProject/SDK/gpio_interrupt/vivado.log
+# Journal file: D:/ZynqProject/SDK/gpio_interrupt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/SDK/gpio_interrupt/gpio_interrupt.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/ZynqProject/SDK/gpio_interrupt/gpio_interrupt.sdk -hwspec D:/ZynqProject/SDK/gpio_interrupt/gpio_interrupt.sdk/gpio_interrupt_wrapper.hdf

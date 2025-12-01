@@ -1,0 +1,19 @@
+#include "stdio.h"
+
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
+int main(){
+
+	printf("GPIO MIO TEST!\n\r");
+	//初始化GPIO驱动
+	/* Initialize the GPIO driver. */
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	Status = XGpioPs_CfgInitialize(&Gpio, ConfigPtr,
+					ConfigPtr->BaseAddr);
+	//配置输出端口
+	//配置输出使能
+	//写入数据
+
+	return 0;
+
+}

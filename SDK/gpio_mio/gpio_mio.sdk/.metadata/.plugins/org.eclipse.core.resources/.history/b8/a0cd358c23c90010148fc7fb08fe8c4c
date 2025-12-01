@@ -1,0 +1,9 @@
+#include "stdio.h"
+
+main(){
+
+	printf("GPIO MIO TEST!\n\r");
+
+	return 0;
+
+}

@@ -1,0 +1,20 @@
+#include "stdio.h"
+#include "xparameters.h"
+#include "xgpiops.h"
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
+
+XGpioPs_Config *ConfigPtr;
+XGpioPs Gpio;
+
+int main(){
+
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	XGpioPs_CfgInitialize(&Gpio, ConfigPtr,ConfigPtr->BaseAddr);
+
+
+
+
+
+
+}

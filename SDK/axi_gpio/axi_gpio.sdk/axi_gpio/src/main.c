@@ -1,0 +1,110 @@
+#include "stdio.h"
+#include "xparameters.h"
+#include "xgpiops.h"
+#include "xscugic.h"
+#include "sleep.h"
+#include "xgpio.h"
+
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID//PS GPIO 器件ID
+#define AXI_GPIO_DEVICE_ID	XPAR_GPIO_0_DEVICE_ID//AXI GPIO 器件ID
+#define INTC_DEVICE_ID		XPAR_SCUGIC_SINGLE_DEVICE_ID//中断控制器ID
+#define AXI_GPIO_INTERRUPT_ID	XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR//AXI GPIO 中断控制器件ID
+#define MIO50_LED			50
+//AXI GPIO通道1
+#define GPIO_CHANNEL1		1
+
+#define GPIO_BANK	XGPIOPS_BANK0
+
+
+XGpioPs_Config *ConfigPtr;
+XScuGic_Config *IntcConfig; /* Instance of the interrupt controller */
+XGpioPs Gpio;
+XScuGic Intc;
+XGpio AXI_Gpio;
+
+void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,u16 AXI_GpioIntrId);
+void IntrHandler();
+
+u32 key_press=0;
+
+int main(){
+
+	u32 led_value=0;
+	//配置PS端GPIO
+	//根据器件ID查找配置信息
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	XGpioPs_CfgInitialize(&Gpio, ConfigPtr,ConfigPtr->BaseAddr);
+	//AXI GPIO初始化
+	XGpio_Initialize(&AXI_Gpio, AXI_GPIO_DEVICE_ID);
+	//配置LED方向、输出使能
+	XGpioPs_SetDirectionPin(&Gpio, MIO50_LED, 1);
+	XGpioPs_SetOutputEnablePin(&Gpio, MIO50_LED, 1);
+	//对AXI GPIO配置方向、使能
+	XGpio_SetDataDirection(&AXI_Gpio, GPIO_CHANNEL1, 0x00000001);//把最低位设置为1
+
+
+	SetupInterruptSystem(&Intc, &AXI_Gpio, AXI_GPIO_INTERRUPT_ID);
+	while(1){
+
+		if(key_press)
+		{
+			//判断当前状态是不是按键按下
+			if(XGpio_DiscreteRead(&AXI_Gpio,GPIO_CHANNEL1)==0)
+			led_value=~led_value;
+			key_press=0;
+			//清除中断状态
+			XGpio_InterruptClear(&AXI_Gpio, 0x00000001);
+
+			XGpioPs_WritePin(&Gpio,MIO50_LED, led_value);
+
+
+			//延时消抖
+			usleep(200000);
+			//中断使能
+			XGpio_InterruptEnable(&AXI_Gpio, 0x00000001);
+		}
+	}
+
+	return 0;
+}
+
+void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,
+				u16 AXI_GpioIntrId)
+{
+	XScuGic_Config *IntcConfig; /* Instance of the interrupt controller */
+
+
+
+	//gpio中断配置信息
+	IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+
+	XScuGic_CfgInitialize(GicInstancePtr, IntcConfig,IntcConfig->CpuBaseAddress);
+	//初始化ARM处理器异常句柄
+	Xil_ExceptionInit();//initialize exception handlers
+	//给IOQ异常注册程序，IOQ：    中断请求
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,GicInstancePtr);
+	//使能处理器中断
+	Xil_ExceptionEnableMask(XIL_EXCEPTION_IRQ);
+	//关联中断处理函数
+	XScuGic_Connect(GicInstancePtr, AXI_GpioIntrId,(Xil_ExceptionHandler)IntrHandler,(void *)AXI_Gpio);
+
+	//PS的GPIO器件使能中断。系统开关，相当于总闸
+	XScuGic_Enable(GicInstancePtr, AXI_GpioIntrId);
+	//0x1表示电平敏感高有效，0xA0指优先级
+	XScuGic_SetPriorityTriggerType(GicInstancePtr, AXI_GpioIntrId,0xA0, 0x1);
+
+	XGpio_InterruptGlobalEnable(AXI_Gpio);//打开全局中断
+	XGpio_InterruptEnable(AXI_Gpio, 0x00000001);//打开通道中断
+
+}
+
+void IntrHandler(){
+
+	printf("interrupt detected!\n\r");
+	key_press=1;
+	//关闭通道1中断
+	XGpio_InterruptDisable(&AXI_Gpio,0x00000001);
+
+}
+

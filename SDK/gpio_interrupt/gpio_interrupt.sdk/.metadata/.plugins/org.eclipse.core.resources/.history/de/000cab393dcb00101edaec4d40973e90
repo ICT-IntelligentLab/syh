@@ -1,0 +1,87 @@
+#include "stdio.h"
+#include "xparameters.h"
+#include "xgpiops.h"
+#include "xscugic.h"
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
+#define INTC_DEVICE_ID		XPAR_SCUGIC_SINGLE_DEVICE_ID
+#define MIO50_LED			50
+#define MIO0_KEY			0
+#define GPIO_INTERRUPT_ID	XPAR_XGPIOPS_0_INTR
+#define GPIO_BANK	XGPIOPS_BANK0
+
+
+XGpioPs_Config *ConfigPtr;
+XScuGic_Config *IntcConfig; /* Instance of the interrupt controller */
+XGpioPs Gpio;
+XScuGic Intc;
+
+
+void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+void IntrHandler();
+
+u32 key_press=0;
+
+int main(){
+
+	u32 led_value=0;
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	XGpioPs_CfgInitialize(&Gpio, ConfigPtr,ConfigPtr->BaseAddr);
+
+	XGpioPs_SetDirectionPin(&Gpio, MIO50_LED, 1);
+	XGpioPs_SetOutputEnablePin(&Gpio, MIO50_LED, 1);
+
+	XGpioPs_SetDirectionPin(&Gpio, MIO0_KEY, 0);
+
+	SetupInterruptSystem(&Intc, &Gpio, GPIO_INTERRUPT_ID);
+	while(1){
+
+		if(key_press)
+		{
+			led_value=~led_value;
+			key_press=0;
+			XGpioPs_IntrEnablePin(&Gpio, MIO0_KEY);
+		XGpioPs_WritePin(&Gpio,MIO50_LED, led_value);
+		}
+	}
+
+	return 0;
+}
+
+void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,
+				u16 GpioIntrId)
+{
+	XScuGic_Config *IntcConfig; /* Instance of the interrupt controller */
+
+
+
+	//gpio中断配置信息
+	IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+
+	XScuGic_CfgInitialize(GicInstancePtr, IntcConfig,IntcConfig->CpuBaseAddress);
+	//初始化ARM处理器异常句柄
+	Xil_ExceptionInit();//initialize exception handlers
+	//给IOQ异常注册程序，IOQ：    中断请求
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,GicInstancePtr);
+	//使能处理器中断
+	Xil_ExceptionEnableMask(XIL_EXCEPTION_IRQ);
+	//关联中断处理函数
+	XScuGic_Connect(GicInstancePtr, GpioIntrId,(Xil_ExceptionHandler)IntrHandler,(void *)Gpio);
+
+	//GPIO器件使能中断。系统开关，相当于总闸
+	XScuGic_Enable(GicInstancePtr, GpioIntrId);
+
+	//设置中断类型，触发模式，下降沿触发
+	XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+
+	//打开MIO引脚中断使能
+	XGpioPs_IntrEnablePin(Gpio, MIO0_KEY);
+}
+
+void IntrHandler(){
+
+	printf("interrupt detected!\n\r");
+	key_press=1;
+	XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+
+}

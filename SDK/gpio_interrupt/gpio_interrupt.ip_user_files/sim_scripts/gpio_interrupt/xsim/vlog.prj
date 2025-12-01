@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../gpio_interrupt.srcs/sources_1/bd/gpio_interrupt/ipshared/ec67/hdl" --include "../../../../gpio_interrupt.srcs/sources_1/bd/gpio_interrupt/ipshared/70cf/hdl" --include "../../../../gpio_interrupt.srcs/sources_1/bd/gpio_interrupt/ip/gpio_interrupt_processing_system7_0_1" \
+"../../../../gpio_interrupt.srcs/sources_1/bd/gpio_interrupt/ip/gpio_interrupt_processing_system7_0_1/sim/gpio_interrupt_processing_system7_0_1.v" \
+"../../../../gpio_interrupt.srcs/sources_1/bd/gpio_interrupt/sim/gpio_interrupt.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

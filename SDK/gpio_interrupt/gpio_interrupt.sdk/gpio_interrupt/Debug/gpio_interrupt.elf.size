@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  80840	   3364	  23408	 107612	  1a45c	gpio_interrupt.elf

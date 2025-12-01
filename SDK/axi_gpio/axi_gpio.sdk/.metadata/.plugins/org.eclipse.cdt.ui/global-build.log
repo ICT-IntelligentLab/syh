@@ -1,0 +1,583 @@
+09:34:33 **** Build of project axi_gpio_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project axi_gpio ****
+
+Nothing to build for project axi_gpio
+09:34:51 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: axi_gpio.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_gpio_bsp/ps7_cortexa9_0/lib -o "axi_gpio.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../axi_gpio_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\ZynqProject\SDK\axi_gpio\axi_gpio.sdk\axi_gpio_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: axi_gpio.elf] Error 1
+09:37:20 **** Build of configuration Debug for project axi_gpio_bsp_xgpio_intr_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_intr_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_intr_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_intr_tapp_example.d" -MT"src/xgpio_intr_tapp_example.o" -o "src/xgpio_intr_tapp_example.o" "../src/xgpio_intr_tapp_example.c"
+Finished building: ../src/xgpio_intr_tapp_example.c
+ 
+Building target: axi_gpio_bsp_xgpio_intr_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_gpio_bsp/ps7_cortexa9_0/lib -o "axi_gpio_bsp_xgpio_intr_tapp_example_1.elf"  ./src/xgpio_intr_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: axi_gpio_bsp_xgpio_intr_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size axi_gpio_bsp_xgpio_intr_tapp_example_1.elf  |tee "axi_gpio_bsp_xgpio_intr_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25632	   1936	  22616	  50184	   c408	axi_gpio_bsp_xgpio_intr_tapp_example_1.elf
+Finished building: axi_gpio_bsp_xgpio_intr_tapp_example_1.elf.size
+ 
+10:10:07 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: axi_gpio.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_gpio_bsp/ps7_cortexa9_0/lib -o "axi_gpio.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: axi_gpio.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size axi_gpio.elf  |tee "axi_gpio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80840	   3364	  23408	 107612	  1a45c	axi_gpio.elf
+Finished building: axi_gpio.elf.size
+ 
+10:27:55 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:40:33: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_SetDirectionPin(&Gpio, MIO0_KEY, 0);
+                                 ^~~~~~~~
+                                 MIO50_LED
+../src/main.c:40:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:42:37: error: 'GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'AXI_GPIO_INTERRUPT_ID'?
+  SetupInterruptSystem(&Intc, &Gpio, GPIO_INTERRUPT_ID);
+                                     ^~~~~~~~~~~~~~~~~
+                                     AXI_GPIO_INTERRUPT_ID
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:89:31: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                               ^~~~~~~~
+                               MIO50_LED
+../src/main.c: In function 'IntrHandler':
+../src/main.c:99:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:08:22 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:37: error: 'GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'AXI_GPIO_INTERRUPT_ID'?
+  SetupInterruptSystem(&Intc, &Gpio, GPIO_INTERRUPT_ID);
+                                     ^~~~~~~~~~~~~~~~~
+                                     AXI_GPIO_INTERRUPT_ID
+../src/main.c:47:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:55:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:94:31: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                               ^~~~~~~~
+                               MIO50_LED
+../src/main.c: In function 'IntrHandler':
+../src/main.c:104:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:12:42 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:56:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:56:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:71:6: error: conflicting types for 'SetupInterruptSystem'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:26:6: note: previous declaration of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:89:2: error: cannot convert to a pointer type
+  XScuGic_Connect(GicInstancePtr, AXI_GpioIntrId,(Xil_ExceptionHandler)IntrHandler,(void *)Gpio);
+  ^~~~~~~~~~~~~~~
+../src/main.c:92:33: error: 'GpioIntrId' undeclared (first use in this function); did you mean 'AXI_GpioIntrId'?
+  XScuGic_Enable(GicInstancePtr, GpioIntrId);
+                                 ^~~~~~~~~~
+                                 AXI_GpioIntrId
+../src/main.c:95:31: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                               ^~~~~~~~
+                               MIO50_LED
+../src/main.c:95:25: error: incompatible type for argument 1 of 'XGpioPs_SetIntrTypePin'
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                         ^~~~
+In file included from ../src/main.c:3:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpiops.h:257:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpioPs {aka struct <anonymous>}'
+ void XGpioPs_SetIntrTypePin(XGpioPs *InstancePtr, u32 Pin, u8 IrqType);
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:98:24: error: incompatible type for argument 1 of 'XGpioPs_IntrEnablePin'
+  XGpioPs_IntrEnablePin(Gpio, MIO0_KEY);
+                        ^~~~
+In file included from ../src/main.c:3:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpiops.h:260:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpioPs {aka struct <anonymous>}'
+ void XGpioPs_IntrEnablePin(XGpioPs *InstancePtr, u32 Pin);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'IntrHandler':
+../src/main.c:105:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:13:43 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:48:30: warning: passing argument 2 of 'SetupInterruptSystem' from incompatible pointer type [-Wincompatible-pointer-types]
+  SetupInterruptSystem(&Intc, &AXI_Gpio, AXI_GPIO_INTERRUPT_ID);
+                              ^
+../src/main.c:26:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpio * {aka struct <anonymous> *}'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:56:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:56:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:71:6: error: conflicting types for 'SetupInterruptSystem'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:26:6: note: previous declaration of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:92:33: error: 'GpioIntrId' undeclared (first use in this function); did you mean 'AXI_GpioIntrId'?
+  XScuGic_Enable(GicInstancePtr, GpioIntrId);
+                                 ^~~~~~~~~~
+                                 AXI_GpioIntrId
+../src/main.c:95:31: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                               ^~~~~~~~
+                               MIO50_LED
+../src/main.c:95:25: error: incompatible type for argument 1 of 'XGpioPs_SetIntrTypePin'
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                         ^~~~
+In file included from ../src/main.c:3:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpiops.h:257:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpioPs {aka struct <anonymous>}'
+ void XGpioPs_SetIntrTypePin(XGpioPs *InstancePtr, u32 Pin, u8 IrqType);
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:98:24: error: incompatible type for argument 1 of 'XGpioPs_IntrEnablePin'
+  XGpioPs_IntrEnablePin(Gpio, MIO0_KEY);
+                        ^~~~
+In file included from ../src/main.c:3:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpiops.h:260:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpioPs {aka struct <anonymous>}'
+ void XGpioPs_IntrEnablePin(XGpioPs *InstancePtr, u32 Pin);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'IntrHandler':
+../src/main.c:105:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+11:15:38 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:48:30: warning: passing argument 2 of 'SetupInterruptSystem' from incompatible pointer type [-Wincompatible-pointer-types]
+  SetupInterruptSystem(&Intc, &AXI_Gpio, AXI_GPIO_INTERRUPT_ID);
+                              ^
+../src/main.c:26:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpio * {aka struct <anonymous> *}'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:56:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:56:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:71:6: error: conflicting types for 'SetupInterruptSystem'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:26:6: note: previous declaration of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:95:31: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                               ^~~~~~~~
+                               MIO50_LED
+../src/main.c:95:25: error: incompatible type for argument 1 of 'XGpioPs_SetIntrTypePin'
+  XGpioPs_SetIntrTypePin(Gpio, MIO0_KEY, XGPIOPS_IRQ_TYPE_EDGE_FALLING);
+                         ^~~~
+In file included from ../src/main.c:3:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpiops.h:257:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpioPs {aka struct <anonymous>}'
+ void XGpioPs_SetIntrTypePin(XGpioPs *InstancePtr, u32 Pin, u8 IrqType);
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:98:24: error: incompatible type for argument 1 of 'XGpioPs_IntrEnablePin'
+  XGpioPs_IntrEnablePin(Gpio, MIO0_KEY);
+                        ^~~~
+In file included from ../src/main.c:3:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpiops.h:260:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpioPs {aka struct <anonymous>}'
+ void XGpioPs_IntrEnablePin(XGpioPs *InstancePtr, u32 Pin);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'IntrHandler':
+../src/main.c:105:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:34:45 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:30: warning: passing argument 2 of 'SetupInterruptSystem' from incompatible pointer type [-Wincompatible-pointer-types]
+  SetupInterruptSystem(&Intc, &AXI_Gpio, AXI_GPIO_INTERRUPT_ID);
+                              ^
+../src/main.c:26:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpio * {aka struct <anonymous> *}'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:55:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:55:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:70:6: error: conflicting types for 'SetupInterruptSystem'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:26:6: note: previous declaration of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:95:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&AXI_Gpio);//打开全局中断
+                              ^
+In file included from ../src/main.c:6:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpio.h:197:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:96:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&AXI_Gpio, 0x00000001);//打开通道中断
+                        ^
+In file included from ../src/main.c:6:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpio.h:199:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpio ** {aka struct <anonymous> **}'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'IntrHandler':
+../src/main.c:104:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:34:58 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:30: warning: passing argument 2 of 'SetupInterruptSystem' from incompatible pointer type [-Wincompatible-pointer-types]
+  SetupInterruptSystem(&Intc, &AXI_Gpio, AXI_GPIO_INTERRUPT_ID);
+                              ^
+../src/main.c:26:6: note: expected 'XGpioPs * {aka struct <anonymous> *}' but argument is of type 'XGpio * {aka struct <anonymous> *}'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:55:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:55:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:70:6: error: conflicting types for 'SetupInterruptSystem'
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:26:6: note: previous declaration of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'IntrHandler':
+../src/main.c:104:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:35:34 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:29:1: error: parameter 'key_press' is initialized
+ u32 key_press=0;
+ ^~~
+../src/main.c:31:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int main(){
+           ^
+../src/main.c:72:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:100:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void IntrHandler(){
+                   ^
+../src/main.c:26:6: error: old-style parameter declarations in prototyped function definition
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpio *AXI_Gpio,u16 AXI_GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:106:1: error: expected '{' at end of input
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:35:46 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:55:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:55:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'IntrHandler':
+../src/main.c:104:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+  XGpioPs_IntrDisablePin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:37:48 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:55:32: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrClearPin(&Gpio, MIO0_KEY);
+                                ^~~~~~~~
+                                MIO50_LED
+../src/main.c:55:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:39:59 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:55:25: warning: passing argument 1 of 'XGpio_InterruptClear' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_InterruptClear(&Gpio, 0x00000001);
+                         ^
+In file included from ../src/main.c:6:0:
+../../axi_gpio_bsp/ps7_cortexa9_0/include/xgpio.h:201:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpioPs * {aka struct <anonymous> *}'
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:63:33: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrEnablePin(&Gpio, MIO0_KEY);
+                                 ^~~~~~~~
+                                 MIO50_LED
+../src/main.c:63:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:40:31 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:63:33: error: 'MIO0_KEY' undeclared (first use in this function); did you mean 'MIO50_LED'?
+    XGpioPs_IntrEnablePin(&Gpio, MIO0_KEY);
+                                 ^~~~~~~~
+                                 MIO50_LED
+../src/main.c:63:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+13:41:11 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: axi_gpio.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_gpio_bsp/ps7_cortexa9_0/lib -o "axi_gpio.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: axi_gpio.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size axi_gpio.elf  |tee "axi_gpio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83120	   3380	  23424	 109924	  1ad64	axi_gpio.elf
+Finished building: axi_gpio.elf.size
+ 
+13:43:14 **** Incremental Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:48:41 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: axi_gpio.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_gpio_bsp/ps7_cortexa9_0/lib -o "axi_gpio.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: axi_gpio.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size axi_gpio.elf  |tee "axi_gpio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83184	   3380	  23424	 109988	  1ada4	axi_gpio.elf
+Finished building: axi_gpio.elf.size
+ 
+13:49:00 **** Incremental Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
