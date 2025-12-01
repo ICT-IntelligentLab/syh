@@ -1,0 +1,47 @@
+#include "stdio.h"
+#include "xparameters.h"
+#include "xgpiops.h"
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
+#define MIO50_LED_0  	50//核心板上PS的LED在MIO50
+#define MIO51_LED_1 	51//核心板上PS的LED在MIO51
+#define MIO_KEY1	    0//核心板上PS的KEY在MIO0
+#define EMIO_KEY3	    54//核心板上PS的KEY在MIO0
+
+
+XGpioPs_Config *ConfigPtr;
+XGpioPs Gpio;
+int main(){
+
+	printf("GPIO MIO TEST!\n\r");
+
+
+	//根据器件的ID查找配置信息lookup
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	//初始化GPIO驱动
+	XGpioPs_CfgInitialize(&Gpio, ConfigPtr,ConfigPtr->BaseAddr);
+	//配置输出端口   (0输入，1输出)
+	XGpioPs_SetDirectionPin(&Gpio, MIO50_LED_0, 1);
+	XGpioPs_SetDirectionPin(&Gpio, MIO51_LED_1, 1);
+	//配置输出使能(0关闭，1打开)
+	XGpioPs_SetOutputEnablePin(&Gpio, MIO50_LED_0, 1);
+	XGpioPs_SetOutputEnablePin(&Gpio, MIO51_LED_1, 1);
+
+	//配置key为输入端口
+	XGpioPs_SetDirectionPin(&Gpio, MIO_KEY1, 1);
+	XGpioPs_SetDirectionPin(&Gpio, EMIO_KEY3, 1);
+	//写入数据，最后的数据虽然是32位。但是只会是0或者1
+
+
+
+	XGpioPs_ReadPin(&Gpio, EMIO_KEY3);
+
+
+	XGpioPs_WritePin(&Gpio, MIO50_LED_0, XGpioPs_ReadPin(&Gpio, MIO_KEY1));
+
+	XGpioPs_WritePin(&Gpio, MIO51_LED_1, XGpioPs_ReadPin(&Gpio, EMIO_KEY3));
+
+
+	return 0;
+
+}

@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../gpio_key.srcs/sources_1/bd/gpio_key/ipshared/ec67/hdl" --include "../../../../gpio_key.srcs/sources_1/bd/gpio_key/ipshared/70cf/hdl" --include "../../../../gpio_key.srcs/sources_1/bd/gpio_key/ip/gpio_key_processing_system7_0_0" \
+"../../../../gpio_key.srcs/sources_1/bd/gpio_key/ip/gpio_key_processing_system7_0_0/sim/gpio_key_processing_system7_0_0.v" \
+"../../../../gpio_key.srcs/sources_1/bd/gpio_key/sim/gpio_key.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

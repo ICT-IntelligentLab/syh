@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"gpio_key": {
+			"proto_instances": {
+			}
+		}
+	}
+}
