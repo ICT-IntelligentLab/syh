@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Oct 20 18:17:47 2025
+# Process ID: 17216
+# Current directory: D:/ZynqProject/02breath_led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23384 D:\ZynqProject\02breath_led\breath_led.xpr
+# Log file: D:/ZynqProject/02breath_led/vivado.log
+# Journal file: D:/ZynqProject/02breath_led\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/02breath_led/breath_led.xpr
+update_compile_order -fileset sources_1

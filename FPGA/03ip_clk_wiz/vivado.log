@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Oct 21 15:57:27 2025
+# Process ID: 37324
+# Current directory: D:/ZynqProject/ip_clk_wiz
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27140 D:\ZynqProject\ip_clk_wiz\ip_clk_wiz.xpr
+# Log file: D:/ZynqProject/ip_clk_wiz/vivado.log
+# Journal file: D:/ZynqProject/ip_clk_wiz\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1
+file mkdir D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new
+close [ open D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc w ]
+add_files -fileset constrs_1 D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc
+export_ip_user_files -of_objects  [get_files D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc
+file mkdir D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new/tb_ip_clk_wiz.v w ]
+add_files -fileset sim_1 D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new/tb_ip_clk_wiz.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ip_clk_wiz' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ip_clk_wiz_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sources_1/new/ip_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new/tb_ip_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ip_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d929b5d8666e40478d599fceea287d2e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ip_clk_wiz_behav xil_defaultlib.tb_ip_clk_wiz xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=20.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.ip_clk_wiz
+Compiling module xil_defaultlib.tb_ip_clk_wiz
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ip_clk_wiz_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim/xsim.dir/tb_ip_clk_wiz_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Oct 21 16:22:29 2025...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ip_clk_wiz_behav -key {Behavioral:sim_1:Functional:tb_ip_clk_wiz} -tclbatch {tb_ip_clk_wiz.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_ip_clk_wiz.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ip_clk_wiz_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 843.211 ; gain = 52.586
+run all
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:46 . Memory (MB): peak = 845.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 21 17:15:24 2025...

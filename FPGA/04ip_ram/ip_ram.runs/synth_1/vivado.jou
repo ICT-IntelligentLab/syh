@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 22 11:26:50 2025
+# Process ID: 19992
+# Current directory: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1
+# Command line: vivado.exe -log ip_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ip_ram.tcl
+# Log file: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1/ip_ram.vds
+# Journal file: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ip_ram.tcl -notrace

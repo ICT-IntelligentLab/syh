@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Oct 20 17:12:07 2025
+# Process ID: 9268
+# Current directory: D:/ZynqProject/02breath_led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19872 D:\ZynqProject\02breath_led\breath_led.xpr
+# Log file: D:/ZynqProject/02breath_led/vivado.log
+# Journal file: D:/ZynqProject/02breath_led\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/02breath_led/breath_led.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+set_property OFFCHIP_TERM NONE [get_ports [list sys_clk]]
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ZynqProject/02breath_led/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/ZynqProject/02breath_led/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/ZynqProject/02breath_led/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/ZynqProject/02breath_led/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property SLEW SLOW [get_ports [list led]]
+place_ports led AA14
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+refresh_design
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/ZynqProject/02breath_led/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

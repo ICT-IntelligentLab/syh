@@ -1,0 +1,236 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Oct 20 16:48:44 2025
+# Process ID: 15128
+# Current directory: D:/ZynqProject/02breath_led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19532 D:\ZynqProject\02breath_led\breath_led.xpr
+# Log file: D:/ZynqProject/02breath_led/vivado.log
+# Journal file: D:/ZynqProject/02breath_led\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/02breath_led/breath_led.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-2
+Top: breath_led
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 870.469 ; gain = 53.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'breath_led' [D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'breath_led' (1#1) [D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 912.098 ; gain = 94.980
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 912.098 ; gain = 94.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 912.098 ; gain = 94.980
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ZynqProject/02breath_led/breath_led.srcs/constrs_1/new/breath_led.xdc]
+Finished Parsing XDC File [D:/ZynqProject/02breath_led/breath_led.srcs/constrs_1/new/breath_led.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1251.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1351.480 ; gain = 534.363
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1351.480 ; gain = 534.363
+file mkdir D:/ZynqProject/02breath_led/breath_led.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/ZynqProject/02breath_led/breath_led.srcs/sim_1/new/tb_breath_led.v w ]
+add_files -fileset sim_1 D:/ZynqProject/02breath_led/breath_led.srcs/sim_1/new/tb_breath_led.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_breath_led' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_breath_led_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module breath_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/02breath_led/breath_led.srcs/sim_1/new/tb_breath_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_breath_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4627ae002b3c4bc2aaf2c2b6ae0f2b67 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_breath_led_behav xil_defaultlib.tb_breath_led xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v" Line 1. Module breath_led doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.breath_led
+Compiling module xil_defaultlib.tb_breath_led
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_breath_led_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim/xsim.dir/tb_breath_led_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 20 16:58:07 2025...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1352.031 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_breath_led_behav -key {Behavioral:sim_1:Functional:tb_breath_led} -tclbatch {tb_breath_led.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_breath_led.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_breath_led_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1352.031 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1352.031 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 1598.148 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:01:17 ; elapsed = 00:01:15 . Memory (MB): peak = 1598.148 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_breath_led' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_breath_led_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module breath_led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZynqProject/02breath_led/breath_led.srcs/sim_1/new/tb_breath_led.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_breath_led
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4627ae002b3c4bc2aaf2c2b6ae0f2b67 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_breath_led_behav xil_defaultlib.tb_breath_led xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v" Line 1. Module breath_led doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.breath_led
+Compiling module xil_defaultlib.tb_breath_led
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_breath_led_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZynqProject/02breath_led/breath_led.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_breath_led_behav -key {Behavioral:sim_1:Functional:tb_breath_led} -tclbatch {tb_breath_led.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_breath_led.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_breath_led_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run all
+run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:25 . Memory (MB): peak = 1598.148 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1797.289 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1797.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'breath_led' [D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'breath_led' (1#1) [D:/ZynqProject/02breath_led/breath_led.srcs/sources_1/new/breath_led.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1797.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1797.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1797.289 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ZynqProject/02breath_led/breath_led.srcs/constrs_1/new/breath_led.xdc]
+Finished Parsing XDC File [D:/ZynqProject/02breath_led/breath_led.srcs/constrs_1/new/breath_led.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 20 17:12:04 2025...

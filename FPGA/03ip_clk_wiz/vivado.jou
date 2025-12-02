@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Oct 21 15:57:27 2025
+# Process ID: 37324
+# Current directory: D:/ZynqProject/ip_clk_wiz
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27140 D:\ZynqProject\ip_clk_wiz\ip_clk_wiz.xpr
+# Log file: D:/ZynqProject/ip_clk_wiz/vivado.log
+# Journal file: D:/ZynqProject/ip_clk_wiz\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1
+file mkdir D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new
+close [ open D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc w ]
+add_files -fileset constrs_1 D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc
+export_ip_user_files -of_objects  [get_files D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/tb_ip_clk_wiz.xdc
+file mkdir D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new/tb_ip_clk_wiz.v w ]
+add_files -fileset sim_1 D:/ZynqProject/ip_clk_wiz/ip_clk_wiz.srcs/sim_1/new/tb_ip_clk_wiz.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_ip_clk_wiz.tcl
+run all
+close_sim

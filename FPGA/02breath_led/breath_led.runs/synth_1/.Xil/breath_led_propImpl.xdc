@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/ZynqProject/02breath_led/breath_led.srcs/constrs_1/new/breath_led.xdc rfile:../../../breath_led.srcs/constrs_1/new/breath_led.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA14 [get_ports led]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W17 [get_ports sys_clk]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V4 [get_ports sys_rst_n]

@@ -1,0 +1,230 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 22 09:22:56 2025
+# Process ID: 20932
+# Current directory: D:/ZynqProject/ip_ram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26676 D:\ZynqProject\ip_ram\ip_ram.xpr
+# Log file: D:/ZynqProject/ip_ram/vivado.log
+# Journal file: D:/ZynqProject/ip_ram\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/ip_ram/ip_ram.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+CRITICAL WARNING: [HDL 9-806] Syntax error near "always". [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:37]
+[Wed Oct 22 11:00:55 2025] Launched synth_1...
+Run output will be captured here: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Oct 22 11:04:50 2025] Launched synth_1...
+Run output will be captured here: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-2
+Top: ip_ram
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 872.031 ; gain = 40.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ip_ram' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ram_rw' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ram_rw' (1#1) [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ram_1' [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_1' (2#1) [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ip_ram' (3#1) [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 915.438 ; gain = 84.211
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 915.438 ; gain = 84.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 915.438 ; gain = 84.211
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ram_1/ram_1.dcp' for cell 'your_instance_name'
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1193.785 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1362.113 ; gain = 530.887
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1362.113 ; gain = 530.887
+set_property package_pin "" [get_ports [list  sys_clk]]
+place_ports sys_clk W17
+place_ports sys_rst_n V4
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_rst_n]]
+file mkdir D:/ZynqProject/ip_ram/ip_ram.srcs/constrs_1/new
+close [ open D:/ZynqProject/ip_ram/ip_ram.srcs/constrs_1/new/ip_ram.xdc w ]
+add_files -fileset constrs_1 D:/ZynqProject/ip_ram/ip_ram.srcs/constrs_1/new/ip_ram.xdc
+set_property target_constrs_file D:/ZynqProject/ip_ram/ip_ram.srcs/constrs_1/new/ip_ram.xdc [current_fileset -constrset]
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1410.637 ; gain = 0.000
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {8} CONFIG.C_PROBE3_WIDTH {8} CONFIG.C_PROBE2_WIDTH {5} CONFIG.C_DATA_DEPTH {2048} CONFIG.C_NUM_OF_PROBES {5}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 8 ila_0_synth_1
+[Wed Oct 22 11:18:44 2025] Launched ila_0_synth_1...
+Run output will be captured here: D:/ZynqProject/ip_ram/ip_ram.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/ZynqProject/ip_ram/ip_ram.ip_user_files/sim_scripts -ip_user_files_dir D:/ZynqProject/ip_ram/ip_ram.ip_user_files -ipstatic_source_dir D:/ZynqProject/ip_ram/ip_ram.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZynqProject/ip_ram/ip_ram.cache/compile_simlib/modelsim} {questa=D:/ZynqProject/ip_ram/ip_ram.cache/compile_simlib/questa} {riviera=D:/ZynqProject/ip_ram/ip_ram.cache/compile_simlib/riviera} {activehdl=D:/ZynqProject/ip_ram/ip_ram.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Oct 22 11:25:17 2025] Launched synth_1...
+Run output will be captured here: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1497.934 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1497.934 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ip_ram' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ram_rw' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ram_rw' (1#1) [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:23]
+ERROR: [Synth 8-448] named port connection 'ram_rw_date' does not exist for instance 'ram_rw_u' of module 'ram_rw' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ram_1' [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ram_1_stub.v:6]
+ERROR: [Synth 8-6156] failed synthesizing module 'ram_1' [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ram_1_stub.v:6]
+ERROR: [Synth 8-6156] failed synthesizing module 'ip_ram' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1524.254 ; gain = 26.320
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Oct 22 11:26:49 2025] Launched synth_1...
+Run output will be captured here: D:/ZynqProject/ip_ram/ip_ram.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1532.902 ; gain = 0.109
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1545.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ip_ram' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ram_rw' [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ram_rw' (1#1) [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ram_rw.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ram_1' [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_1' (2#1) [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ram_1_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (3#1) [D:/ZynqProject/ip_ram/.Xil/Vivado-20932-hanbao/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ram_rw_u'. This will prevent further optimization [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:13]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0_u'. This will prevent further optimization [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:32]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'your_instance_name'. This will prevent further optimization [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ip_ram' (4#1) [D:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/new/ip_ram.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1545.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1545.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1545.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ram_1/ram_1.dcp' for cell 'your_instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ila_0_u'
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0_u/inst'
+Finished Parsing XDC File [d:/ZynqProject/ip_ram/ip_ram.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0_u/inst'
+Parsing XDC File [D:/ZynqProject/ip_ram/ip_ram.srcs/constrs_1/new/ip_ram.xdc]
+Finished Parsing XDC File [D:/ZynqProject/ip_ram/ip_ram.srcs/constrs_1/new/ip_ram.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1619.469 ; gain = 75.781
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Oct 22 11:28:14 2025] Launched impl_1...
+Run output will be captured here: D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210357A7D00EA
+set_property PROGRAM.FILE {D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/ip_ram.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/ip_ram.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/ZynqProject/ip_ram/ip_ram.runs/impl_1/ip_ram.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila_0_u"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila_0_u"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Oct-22 11:30:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila_0_u"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ila_0_u"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Oct-22 11:30:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ZynqProject/ip_ram/ip_ram.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210357A7D00EA
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 22 11:43:11 2025...
