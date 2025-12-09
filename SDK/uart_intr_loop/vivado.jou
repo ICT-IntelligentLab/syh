@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Dec  2 16:00:28 2025
+# Process ID: 22032
+# Current directory: D:/ZynqProject/SDK/uart_intr_loop
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6912 D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.xpr
+# Log file: D:/ZynqProject/SDK/uart_intr_loop/vivado.log
+# Journal file: D:/ZynqProject/SDK/uart_intr_loop\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZynqProject/SDK/uart_intr_loop/uart_intr_loop.xpr
+open_bd_design {D:/ZynqProject/SDK/uart_intr_loop/uart_intr_loop.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+file mkdir D:/ZynqProject/SDK/uart_intr_loop/uart_intr_loop.sdk
+write_hwdef -force  -file D:/ZynqProject/SDK/uart_intr_loop/uart_intr_loop.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/ZynqProject/SDK/uart_intr_loop/uart_intr_loop.sdk -hwspec D:/ZynqProject/SDK/uart_intr_loop/uart_intr_loop.sdk/design_1_wrapper.hdf

@@ -1,0 +1,93 @@
+#include "xparameters.h"
+#include "xuartps.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+
+#define UART_DEVICE_ID		XPAR_XUARTPS_0_DEVICE_ID//串口器件	id
+#define INTC_DEVICE_ID		XPAR_SCUGIC_SINGLE_DEVICE_ID//中断控制器器件ID，总闸
+#define UART_INT_IRQ_ID		XPAR_XUARTPS_1_INTR//串口中断号
+XUartPs_Config *Config;
+XUartPs UartPs;//uart器件驱动实例
+XScuGic Intc;//中断驱动实例
+
+int uart_init(){
+
+	int Status;
+
+	Config = XUartPs_LookupConfig(UART_DEVICE_ID);
+	XUartPs_CfgInitialize(&UartPs, Config, Config->BaseAddress);
+
+	//硬件自检
+	Status = XUartPs_SelfTest(&UartPs);
+		if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+	//设置中断模式
+	XUartPs_SetOperMode(&UartPs, XUARTPS_OPER_MODE_NORMAL);
+	//设置接收FIFO的触发阈值
+	XUartPs_SetFifoThreshold(&UartPs, 1);
+	//设置波特率
+	XUartPs_SetBaudRate(&UartPs, 115200);
+	return Status;
+};
+
+void uart_intr_handle(XUartPs *CallBackRef){
+	u32 rec_data =0;
+	u32 IsrStatus;
+	//XUartPs *uart_instance_ptr=(XUartPs*)CallBackRef;
+	//获取中断状态寄存器的值
+	IsrStatus = XUartPs_ReadReg(CallBackRef->Config.BaseAddress,XUARTPS_IMR_OFFSET);
+
+	IsrStatus &= XUartPs_ReadReg(CallBackRef->Config.BaseAddress,XUARTPS_ISR_OFFSET);
+
+	if(IsrStatus& XUARTPS_IXR_RXOVR){
+
+		rec_data = XUartPs_RecvByte(CallBackRef->Config.BaseAddress);
+		XUartPs_WriteReg(CallBackRef->Config.BaseAddress, XUARTPS_ISR_OFFSET,
+				 XUARTPS_IXR_RXOVR);
+	}
+
+
+}
+int uart_intr_init(){
+
+	int Status;
+	XScuGic_Config *intc_cfg;//中断控制器配置信息
+	//初始化中断控制器函数
+	intc_cfg = XScuGic_LookupConfig(INTC_DEVICE_ID);
+	XScuGic_CfgInitialize(&Intc, intc_cfg,intc_cfg->CpuBaseAddress);
+	//关联ID与中断处理函数
+	XScuGic_Connect(&Intc, UART_INT_IRQ_ID, (Xil_ExceptionHandler) uart_intr_handle,&UartPs);
+
+	//设置并打开异常处理功能
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,&Intc);
+	Xil_ExceptionEnable();
+
+	//设置中断触发方式
+	XUartPs_SetInterruptMask(&UartPs, XUARTPS_IXR_RXOVR);
+	//使能中断
+	XScuGic_Enable(&Intc, UART_INT_IRQ_ID);
+	return Status;
+}
+int main(void){
+
+	//串口初始化
+	uart_init();
+
+	//串口中断初始化
+	uart_intr_init();
+
+
+
+	while(1);
+	return 0;
+
+
+
+
+
+
+
+}
+

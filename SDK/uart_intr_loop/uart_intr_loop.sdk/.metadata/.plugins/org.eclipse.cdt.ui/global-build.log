@@ -1,0 +1,1206 @@
+16:03:18 **** Build of project uart_intr_loop_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project uart_intr_loop ****
+
+Nothing to build for project uart_intr_loop
+16:03:46 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../uart_intr_loop_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+16:05:35 **** Build of configuration Debug for project uart_intr_loop_bsp_xuartps_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xuartps_intr_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartps_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartps_intr_example.d" -MT"src/xuartps_intr_example.o" -o "src/xuartps_intr_example.o" "../src/xuartps_intr_example.c"
+Finished building: ../src/xuartps_intr_example.c
+ 
+Building target: uart_intr_loop_bsp_xuartps_intr_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop_bsp_xuartps_intr_example_1.elf"  ./src/xuartps_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop_bsp_xuartps_intr_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop_bsp_xuartps_intr_example_1.elf  |tee "uart_intr_loop_bsp_xuartps_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31568	   1968	  22904	  56440	   dc78	uart_intr_loop_bsp_xuartps_intr_example_1.elf
+Finished building: uart_intr_loop_bsp_xuartps_intr_example_1.elf.size
+ 
+16:34:48 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19000	   1144	  22568	  42712	   a6d8	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+16:36:52 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:6:2: warning: implicit declaration of function 'XUartPs_LookupConfig' [-Wimplicit-function-declaration]
+  XUartPs_LookupConfig(DeviceId);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:6:23: error: 'DeviceId' undeclared (first use in this function)
+  XUartPs_LookupConfig(DeviceId);
+                       ^~~~~~~~
+../src/main.c:6:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:7:2: warning: implicit declaration of function 'XUartPs_CfgInitialize' [-Wimplicit-function-declaration]
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:7:24: error: 'UartInstPtr' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                        ^~~~~~~~~~~
+../src/main.c:7:37: error: 'Config' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                                     ^~~~~~
+../src/main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:38:56 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:6:2: warning: implicit declaration of function 'XUartPs_LookupConfig' [-Wimplicit-function-declaration]
+  XUartPs_LookupConfig(UART_DEVICE_ID);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:2:25: error: 'XPAR_XUARTPS_0_DEVICE_ID' undeclared (first use in this function); did you mean 'UART_DEVICE_ID'?
+ #define UART_DEVICE_ID  XPAR_XUARTPS_0_DEVICE_ID
+                         ^
+../src/main.c:6:23: note: in expansion of macro 'UART_DEVICE_ID'
+  XUartPs_LookupConfig(UART_DEVICE_ID);
+                       ^~~~~~~~~~~~~~
+../src/main.c:2:25: note: each undeclared identifier is reported only once for each function it appears in
+ #define UART_DEVICE_ID  XPAR_XUARTPS_0_DEVICE_ID
+                         ^
+../src/main.c:6:23: note: in expansion of macro 'UART_DEVICE_ID'
+  XUartPs_LookupConfig(UART_DEVICE_ID);
+                       ^~~~~~~~~~~~~~
+../src/main.c:7:2: warning: implicit declaration of function 'XUartPs_CfgInitialize' [-Wimplicit-function-declaration]
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:7:24: error: 'UartInstPtr' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                        ^~~~~~~~~~~
+../src/main.c:7:37: error: 'Config' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                                     ^~~~~~
+../src/main.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:39:54 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:7:2: warning: implicit declaration of function 'XUartPs_LookupConfig' [-Wimplicit-function-declaration]
+  XUartPs_LookupConfig(UART_DEVICE_ID);
+  ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:8:2: warning: implicit declaration of function 'XUartPs_CfgInitialize' [-Wimplicit-function-declaration]
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+  ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:8:24: error: 'UartInstPtr' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                        ^~~~~~~~~~~
+../src/main.c:8:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:8:37: error: 'Config' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                                     ^~~~~~
+../src/main.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:41:38 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:10:24: error: 'UartInstPtr' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                        ^~~~~~~~~~~
+../src/main.c:10:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:43:08 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:11:24: error: 'UartInstPtr' undeclared (first use in this function)
+  XUartPs_CfgInitialize(UartInstPtr, Config, Config->BaseAddress);
+                        ^~~~~~~~~~~
+../src/main.c:11:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:9:10: warning: unused variable 'UartPs' [-Wunused-variable]
+  XUartPs UartPs;
+          ^~~~~~
+../src/main.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:44:27 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21236	   1160	  22584	  44980	   afb4	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+19:35:54 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:14:28: error: incompatible type for argument 1 of 'XUartPs_SelfTest'
+  Status = XUartPs_SelfTest(UartPs);
+                            ^~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:510:5: note: expected 'XUartPs * {aka struct <anonymous> *}' but argument is of type 'XUartPs {aka struct <anonymous>}'
+ s32 XUartPs_SelfTest(XUartPs *InstancePtr);
+     ^~~~~~~~~~~~~~~~
+../src/main.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+19:36:39 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:15:28: error: incompatible type for argument 1 of 'XUartPs_SelfTest'
+  Status = XUartPs_SelfTest(UartPs);
+                            ^~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:510:5: note: expected 'XUartPs * {aka struct <anonymous> *}' but argument is of type 'XUartPs {aka struct <anonymous>}'
+ s32 XUartPs_SelfTest(XUartPs *InstancePtr);
+     ^~~~~~~~~~~~~~~~
+../src/main.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+19:38:42 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:16:28: error: incompatible type for argument 1 of 'XUartPs_SelfTest'
+  Status = XUartPs_SelfTest(UartPs);
+                            ^~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:510:5: note: expected 'XUartPs * {aka struct <anonymous> *}' but argument is of type 'XUartPs {aka struct <anonymous>}'
+ s32 XUartPs_SelfTest(XUartPs *InstancePtr);
+     ^~~~~~~~~~~~~~~~
+../src/main.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+19:39:10 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21616	   1192	  22616	  45424	   b170	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+19:43:44 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:21:22: error: incompatible type for argument 1 of 'XUartPs_SetOperMode'
+  XUartPs_SetOperMode(UartPs, XUARTPS_OPER_MODE_NORMAL);
+                      ^~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:485:6: note: expected 'XUartPs * {aka struct <anonymous> *}' but argument is of type 'XUartPs {aka struct <anonymous>}'
+ void XUartPs_SetOperMode(XUartPs *InstancePtr, u8 OperationMode);
+      ^~~~~~~~~~~~~~~~~~~
+../src/main.c:23:27: error: expected expression before 'XUartPs'
+  XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+                           ^~~~~~~
+../src/main.c:23:2: error: too few arguments to function 'XUartPs_SetFifoThreshold'
+  XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:475:6: note: declared here
+ void XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+19:45:15 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:23:27: error: expected expression before 'XUartPs'
+  XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+                           ^~~~~~~
+../src/main.c:23:2: error: too few arguments to function 'XUartPs_SetFifoThreshold'
+  XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:475:6: note: declared here
+ void XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+19:46:34 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24144	   1192	  22616	  47952	   bb50	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+19:54:40 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:32:13: error: 'UartPs' undeclared (first use in this function); did you mean 'XUartPs'?
+  uart_init(&UartPs);
+             ^~~~~~
+             XUartPs
+../src/main.c:32:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:35:2: warning: implicit declaration of function 'uart_intr_init'; did you mean 'uart_init'? [-Wimplicit-function-declaration]
+  uart_intr_init(&UartPs);
+  ^~~~~~~~~~~~~~
+  uart_init
+../src/main.c: In function 'uart_init':
+../src/main.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+19:55:15 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:35:2: warning: implicit declaration of function 'uart_intr_init'; did you mean 'uart_init'? [-Wimplicit-function-declaration]
+  uart_intr_init(&UartPs);
+  ^~~~~~~~~~~~~~
+  uart_init
+../src/main.c: In function 'uart_init':
+../src/main.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop\Debug/../src/main.c:35: undefined reference to `uart_intr_init'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+20:17:01 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:30:2: error: unknown type name 'XScuGic_Config'; did you mean 'XUartPs_Config'?
+  XScuGic_Config *IntcConfig;
+  ^~~~~~~~~~~~~~
+  XUartPs_Config
+../src/main.c:32:2: warning: implicit declaration of function 'XScuGic_LookupConfig'; did you mean 'XUartPs_LookupConfig'? [-Wimplicit-function-declaration]
+  XScuGic_LookupConfig(INTC_DEVICE_ID);
+  ^~~~~~~~~~~~~~~~~~~~
+  XUartPs_LookupConfig
+../src/main.c:33:2: warning: implicit declaration of function 'XScuGic_CfgInitialize'; did you mean 'XUartPs_CfgInitialize'? [-Wimplicit-function-declaration]
+  XScuGic_CfgInitialize(&UartPs, IntcConfig,IntcConfig->CpuBaseAddress);
+  ^~~~~~~~~~~~~~~~~~~~~
+  XUartPs_CfgInitialize
+../src/main.c:33:54: error: request for member 'CpuBaseAddress' in something not a structure or union
+  XScuGic_CfgInitialize(&UartPs, IntcConfig,IntcConfig->CpuBaseAddress);
+                                                      ^~
+../src/main.c: In function 'uart_init':
+../src/main.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:17:37 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:33:24: warning: passing argument 1 of 'XScuGic_CfgInitialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XScuGic_CfgInitialize(&UartPs, IntcConfig,IntcConfig->CpuBaseAddress);
+                        ^
+In file included from ../src/main.c:3:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xscugic.h:334:6: note: expected 'XScuGic * {aka struct <anonymous> *}' but argument is of type 'XUartPs * {aka struct <anonymous> *}'
+ s32  XScuGic_CfgInitialize(XScuGic *InstancePtr, XScuGic_Config *ConfigPtr,
+      ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'uart_init':
+../src/main.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main.c:33:2: warning: 'IntcConfig' is used uninitialized in this function [-Wuninitialized]
+  XScuGic_CfgInitialize(&UartPs, IntcConfig,IntcConfig->CpuBaseAddress);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27116	   1968	  22696	  51780	   ca44	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+20:25:40 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_init':
+../src/main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27120	   1968	  22696	  51784	   ca48	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+20:26:21 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27124	   1968	  22696	  51788	   ca4c	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+20:35:22 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:39:63: error: 'IntrHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+  XScuGic_Connect(&Intc, UART_INT_IRQ_ID,(Xil_ExceptionHandler)IntrHandler,(void *)AXI_Gpio);
+                                                               ^~~~~~~~~~~
+                                                               XNullHandler
+../src/main.c:39:63: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:39:83: error: 'AXI_Gpio' undeclared (first use in this function)
+  XScuGic_Connect(&Intc, UART_INT_IRQ_ID,(Xil_ExceptionHandler)IntrHandler,(void *)AXI_Gpio);
+                                                                                   ^~~~~~~~
+../src/main.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:37:53 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:39:2: error: cannot convert to a pointer type
+  XScuGic_Connect(&Intc, UART_INT_IRQ_ID, (Xil_ExceptionHandler) XUartPs_InterruptHandler,(void *)UartPs);
+  ^~~~~~~~~~~~~~~
+../src/main.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:44:54 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:47:2: error: cannot convert to a pointer type
+  XScuGic_Connect(&Intc, UART_INT_IRQ_ID, (Xil_ExceptionHandler) XUartPs_InterruptHandler,(void *)UartPs);
+  ^~~~~~~~~~~~~~~
+../src/main.c:50:99: error: 'GicInstancePtr' undeclared (first use in this function)
+  Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,GicInstancePtr);
+                                                                                                   ^~~~~~~~~~~~~~
+../src/main.c:50:99: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:45:31 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:47:90: error: incompatible type for argument 4 of 'XScuGic_Connect'
+  XScuGic_Connect(&Intc, UART_INT_IRQ_ID, (Xil_ExceptionHandler) XUartPs_InterruptHandler,UartPs);
+                                                                                          ^~~~~~
+In file included from ../src/main.c:3:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xscugic.h:327:6: note: expected 'void *' but argument is of type 'XUartPs {aka struct <anonymous>}'
+ s32  XScuGic_Connect(XScuGic *InstancePtr, u32 Int_Id,
+      ^~~~~~~~~~~~~~~
+../src/main.c:50:99: error: 'GicInstancePtr' undeclared (first use in this function)
+  Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,GicInstancePtr);
+                                                                                                   ^~~~~~~~~~~~~~
+../src/main.c:50:99: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:45:49 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:50:99: error: 'GicInstancePtr' undeclared (first use in this function)
+  Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,GicInstancePtr);
+                                                                                                   ^~~~~~~~~~~~~~
+../src/main.c:50:99: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:46:29 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:47:06 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:54:58 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:56:15 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:33:1: error: number of arguments doesn't match prototype
+ void XUartPs_InterruptHandler(){
+ ^~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: error: prototype declaration
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+20:59:47 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:33:6: error: conflicting types for 'XUartPs_InterruptHandler'
+ void XUartPs_InterruptHandler(XScuGic *InstancePtr){
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: note: previous declaration of 'XUartPs_InterruptHandler' was here
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+21:06:53 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:63:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../uart_intr_loop_bsp/ps7_cortexa9_0/lib\libxil.a(xuartps_intr.o): In function `XUartPs_InterruptHandler':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop_bsp\ps7_cortexa9_0\libsrc\uartps_v3_7\src/xuartps_intr.c:182: multiple definition of `XUartPs_InterruptHandler'
+./src/main.o:D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop\Debug/../src/main.c:33: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+21:09:44 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:64:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../uart_intr_loop_bsp/ps7_cortexa9_0/lib\libxil.a(xuartps_intr.o): In function `XUartPs_InterruptHandler':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop_bsp\ps7_cortexa9_0\libsrc\uartps_v3_7\src/xuartps_intr.c:182: multiple definition of `XUartPs_InterruptHandler'
+./src/main.o:D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop\Debug/../src/main.c:34: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+21:12:57 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:34:6: error: conflicting types for 'XUartPs_InterruptHandler'
+ void XUartPs_InterruptHandler(void *CallBackRef){
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:2:0:
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:504:6: note: previous declaration of 'XUartPs_InterruptHandler' was here
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps.h:187:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:39:30: error: 'InstancePtr' undeclared (first use in this function)
+  IsrStatus = XUartPs_ReadReg(InstancePtr->Config.BaseAddress,XUARTPS_IMR_OFFSET);
+                              ^
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps_hw.h:378:12: note: in definition of macro 'XUartPs_ReadReg'
+  Xil_In32((BaseAddress) + (u32)(RegOffset))
+            ^~~~~~~~~~~
+../src/main.c:39:30: note: each undeclared identifier is reported only once for each function it appears in
+  IsrStatus = XUartPs_ReadReg(InstancePtr->Config.BaseAddress,XUARTPS_IMR_OFFSET);
+                              ^
+../../uart_intr_loop_bsp/ps7_cortexa9_0/include/xuartps_hw.h:378:12: note: in definition of macro 'XUartPs_ReadReg'
+  Xil_In32((BaseAddress) + (u32)(RegOffset))
+            ^~~~~~~~~~~
+../src/main.c:37:11: warning: unused variable 'uart_instance_ptr' [-Wunused-variable]
+  XUartPs *uart_instance_ptr=(XUartPs*)CallBackRef;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:36:6: warning: variable 'IsrStatus' set but not used [-Wunused-but-set-variable]
+  u32 IsrStatus;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+21:14:01 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'XUartPs_InterruptHandler':
+../src/main.c:37:11: warning: unused variable 'uart_instance_ptr' [-Wunused-variable]
+  XUartPs *uart_instance_ptr=(XUartPs*)CallBackRef;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:65:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../uart_intr_loop_bsp/ps7_cortexa9_0/lib\libxil.a(xuartps_intr.o): In function `XUartPs_InterruptHandler':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop_bsp\ps7_cortexa9_0\libsrc\uartps_v3_7\src/xuartps_intr.c:182: multiple definition of `XUartPs_InterruptHandler'
+./src/main.o:D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop\Debug/../src/main.c:34: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+21:14:30 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:65:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../uart_intr_loop_bsp/ps7_cortexa9_0/lib\libxil.a(xuartps_intr.o): In function `XUartPs_InterruptHandler':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop_bsp\ps7_cortexa9_0\libsrc\uartps_v3_7\src/xuartps_intr.c:182: multiple definition of `XUartPs_InterruptHandler'
+./src/main.o:D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop\Debug/../src/main.c:34: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+21:15:32 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:68:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../uart_intr_loop_bsp/ps7_cortexa9_0/lib\libxil.a(xuartps_intr.o): In function `XUartPs_InterruptHandler':
+D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop_bsp\ps7_cortexa9_0\libsrc\uartps_v3_7\src/xuartps_intr.c:182: multiple definition of `XUartPs_InterruptHandler'
+./src/main.o:D:\ZynqProject\SDK\uart_intr_loop\uart_intr_loop.sdk\uart_intr_loop\Debug/../src/main.c:34: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: uart_intr_loop.elf] Error 1
+21:16:21 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:68:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28356	   1968	  22696	  53020	   cf1c	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:16:41 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:68:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28356	   1968	  22696	  53020	   cf1c	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:17:13 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:66:5: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  if (Status != XST_SUCCESS) {
+     ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28376	   1968	  22696	  53040	   cf30	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:17:40 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:68:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28356	   1968	  22696	  53020	   cf1c	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:26:54 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_handle':
+../src/main.c:35:6: warning: variable 'rec_data' set but not used [-Wunused-but-set-variable]
+  u32 rec_data =0;
+      ^~~~~~~~
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:71:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28620	   1968	  22696	  53284	   d024	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:29:56 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_handle':
+../src/main.c:52:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+21:30:01 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_handle':
+../src/main.c:50:61: error: stray '\243' in program
+  XUartPs_SendByte(CallBackRef->Config.BaseAddress, rec_data)£»
+                                                             ^
+../src/main.c:50:62: error: stray '\273' in program
+  XUartPs_SendByte(CallBackRef->Config.BaseAddress, rec_data)£»
+                                                              ^
+../src/main.c:52:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+21:30:05 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:72:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28648	   1968	  22696	  53312	   d040	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:31:11 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_intr_init':
+../src/main.c:60:5: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  if (Status != XST_SUCCESS) {
+     ^
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28668	   1968	  22696	  53332	   d054	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:33:08 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28672	   1968	  22696	  53336	   d058	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 
+21:35:24 **** Incremental Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+21:35:24 **** Incremental Build of configuration Debug for project uart_intr_loop_bsp_xuartps_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+21:36:20 **** Auto Build of configuration Debug for project uart_intr_loop ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_intr_loop_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: uart_intr_loop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_intr_loop_bsp/ps7_cortexa9_0/lib -o "uart_intr_loop.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: uart_intr_loop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size uart_intr_loop.elf  |tee "uart_intr_loop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28672	   1968	  22696	  53336	   d058	uart_intr_loop.elf
+Finished building: uart_intr_loop.elf.size
+ 

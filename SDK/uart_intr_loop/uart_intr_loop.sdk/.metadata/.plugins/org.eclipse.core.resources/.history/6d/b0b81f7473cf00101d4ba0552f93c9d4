@@ -1,0 +1,44 @@
+#include "xparameters.h"
+#include "xuartps.h"
+#include "xuartps.h"
+
+#define UART_DEVICE_ID		XPAR_XUARTPS_0_DEVICE_ID
+
+int uart_init(){
+
+	int Status;
+	XUartPs_Config *Config;
+	XUartPs UartPs;
+	Config = XUartPs_LookupConfig(UART_DEVICE_ID);
+	XUartPs_CfgInitialize(&UartPs, Config, Config->BaseAddress);
+
+	Status = XUartPs_SelfTest(UartPs);
+		if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+
+
+
+};
+
+int main(void){
+
+	//串口初始化
+	uart_init();
+
+	//串口中断初始化
+
+
+
+
+	while(1);
+	return 0;
+
+
+
+
+
+
+
+}
+

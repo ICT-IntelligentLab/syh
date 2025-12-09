@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  31568	   1968	  22904	  56440	   dc78	uart_intr_loop_bsp_xuartps_intr_example_1.elf
