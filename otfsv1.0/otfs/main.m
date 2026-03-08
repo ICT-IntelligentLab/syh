@@ -10,9 +10,9 @@ close all
 tic
 %% OTFS parameters%%%%%%%%%%
 % number of symbol
-N = 16; %码元数为8
+N = 16; 
 % number of subcarriers
-M = 32;  %载波数为8
+M = 32; 
 Nifft=N*M;
  
  
@@ -42,19 +42,19 @@ noise_var_sqrt = sqrt(1./SNR);  %噪声
 sigma_2 = abs(eng_sqrt*noise_var_sqrt).^2;
  
  
-baud_rate=6400;
-tau = [0 2e-3 3e-3 4e-3 5e-3]; % 五条多径的时延
-pdb = [0 -4 -8 -12 -16]; % 五条多径的平均路径增益
-fdmax=6.5;
-channel = comm.RayleighChannel(...
-'SampleRate',baud_rate, ...
-'PathDelays',tau, ... % 五条多径的时延
-'AveragePathGains',pdb, ... % 五条多径的平均路径增益
-'MaximumDopplerShift',fdmax, ...
-'NormalizePathGains',true,...
-'PathGainsOutputPort',true,...
-'RandomStream','mt19937ar with seed',...
-'Seed',2);
+%baud_rate=6400;
+%tau = [0 2e-3 3e-3 4e-3 5e-3]; % 五条多径的时延
+% pdb = [0 -4 -8 -12 -16]; % 五条多径的平均路径增益
+% fdmax=6.5;
+% channel = comm.RayleighChannel(...
+% 'SampleRate',baud_rate, ...
+% 'PathDelays',tau, ... % 五条多径的时延
+% 'AveragePathGains',pdb, ... % 五条多径的平均路径增益
+% 'MaximumDopplerShift',fdmax, ...
+% 'NormalizePathGains',true,...
+% 'PathGainsOutputPort',true,...
+% 'RandomStream','mt19937ar with seed',...
+% 'Seed',2);
  
 %%
  
@@ -63,11 +63,12 @@ PAPR_dB_SUM=0;
 err_ber = zeros(length(SNR_dB),1); %生成0矩阵，length返回 X 中最大数组维度的长度，此时为4,即此命令生成4*1维的0矩阵
  
 fprintf('Start to do OTFS simulation. Please wait...\n');
+rng(3);
 for iesn0 = 1:length(SNR_dB)    %1~4
     SNR_temp = SNR_dB(iesn0);   %SNR_temp取0,5,10,15
     SNR_temp 
     for ifram = 1:N_fram 
-        rng(3);
+        
         %% random input bits generation and 4QAM modulation%%%%%
         data_info_bit = randi([0,1],N_bits_perfram,1); %生成0或1的随机数，且维数是128*1，也就是生成了一个帧结构中包含的bit数
         data_bit      =  reshape(data_info_bit,N_syms_perfram,M_bits); 
@@ -121,14 +122,14 @@ for iesn0 = 1:length(SNR_dB)    %1~4
         % xlabel('X Axis');
         % ylabel('Y Axis');
  
-        threshold=0.01;
+        %threshold=0.01;
         k=1;
         for i=1:N
             for j=1:Protect_Front
                 if(abs(y(i,j))>max(abs(y(:)))*0.1)
                     est_delay_tap(k)=j-1;
                     est_doppler_tap(k)=i-Pilot_row_index;
-                    est_chan_coef(k) =y(i,j)*exp(-1i*est_doppler_tap(k));
+                    % est_chan_coef(k) =y(i,j)*exp(-1i*est_doppler_tap(k));
                     est_chan_coef(k) =y(i,j);
                     k=k+1;
                 end
