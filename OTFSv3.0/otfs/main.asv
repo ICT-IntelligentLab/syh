@@ -1,0 +1,110 @@
+clc
+close all
+tic
+
+%% OTFS parameters
+N = 16; %DD域矩阵行数（多普勒）
+M = 32;  %DD域矩阵列数（时延）
+max_delay_tap=8;  %最大时延，即[0,7]
+max_doppler_tap=8; %最大多普勒频移，即[-4,3]
+max_taps=8; %最大路径个数
+taps_random='False'; %是否随机生成路径数量
+
+% size of constellation
+M_mod = 4;  %进制数为4，那么一码元就包含2比特
+Pilot=1; %导频大小
+num_frames=5; %仿真帧数
+
+SNR_dB =0:4:20;    %信噪比dB从0~20，间隔4dB取样，length为6
+SNR = 10.^(SNR_dB/10);  %dB和10进制换算
+  
+% number of symbols per frame
+data_row_range=3:14;  %数据填充范围（行）
+data_col_range=max_delay_tap+1:M-2;   %数据填充范围（列）
+Pilot_row_index=9;
+Pilot_col_index=1;  %导频位置
+
+
+data_row_num=length(data_row_range); %数据所占行数大小
+data_col_num=length(data_col_range); %数据所占列数大小
+
+err_bits_sum=zeros(length(SNR),1);
+N_syms_perfram = data_row_num*data_col_num;   %一帧中包含的符号数=单个载波包含的码元数*载波个数\
+for t=1:length(SNR)
+    err_bits=0;
+    for n=1:num_frames
+    %% 数据生成填充DD域
+    data_bit = randi([0,1],N_syms_perfram*log2(M_mod),1); %生成0或1的随机数，也就是生成了一个帧结构中包含的bit数
+     
+    x_temp = qammod(data_bit,M_mod, 'gray','InputType','bit'); %输出使用正交幅度调制4-QAM消息信号X的复包络,gray格雷码编码
+    x_temp = reshape(x_temp,data_row_num,data_col_num); %将x重组成矩阵
+    
+    x=zeros(N,M);
+    x(Pilot_row_index,Pilot_col_index)=Pilot;
+    x(data_row_range,data_col_range)=x_temp;  %将导频和数据填充到x里
+    
+    %% OTFS_modulation
+    s = OTFS_modulation(N,M,x);
+
+    %OTFS_channel
+    [taps,delay_taps,Doppler_taps,chan_coef] = OTFS_channel_gen(max_delay_tap,max_doppler_tap,max_taps,taps_random);
+       
+    r = OTFS_channel_output(N,M,taps,delay_taps,Doppler_taps,chan_coef,SNR(t),s);
+    
+    % OTFS_demodulation
+    y = OTFS_demodulation(N,M,r);
+    
+    %% OTFS信道估计
+        % est_delay_tap=[];
+        % est_doppler_tap=[];
+        % est_chan_coef=[];
+        % threshold=0.5;
+        %  k=1;
+        %  for i=1:N
+        %      for j=1:max_delay_tap
+        %          if abs(y(i,j))>max(abs(y(:)))*threshold
+        %                 est_delay_tap(k)=j-Pilot_col_index;
+        %                 est_doppler_tap(k)=i-Pilot_row_index;
+        %                 est_chan_coef(k) =y(i,j)/Pilot;
+        %                 k=k+1;
+        %           end
+        %      end
+        %  end
+
+    %% 假设信道状态已知
+        est_delay_tap=[];
+        est_doppler_tap=[];
+        est_chan_coef=[];
+        est_delay_tap=delay_taps;
+        est_doppler_tap=Doppler_taps;
+        est_chan_coef=chan_coef;
+        
+
+    %% OTFS_mp解调器     
+    x_est = OTFS_mp_detector(N,M,M_mod,length(est_delay_tap),est_delay_tap,est_doppler_tap,est_chan_coef,SNR(t),y);
+
+    x_otemp=x_est(data_row_range,data_col_range);
+    x_out = x_otemp(:);  % 将DD域矩阵按列展开成向量
+    data_out = qamdemod(x_out,M_mod,'gray','OutputType','bit');
+    err_bits=err_bits+(sum(data_out~=data_bit));
+
+    end
+    err_bits_sum(t)= err_bits/(N_syms_perfram*num_frames);
+end
+disp(err_bits_sum)
+
+% 绘制 BER vs. SNR 曲线
+figure;  % 创建一个新图窗口
+
+% 绘制两条BER曲线，使用不同的线型和标记
+semilogy(SNR_dB, err_bits_sum, '-o', 'LineWidth', 1.5, 'MarkerSize', 8, 'Color', 'b'); 
+
+% 添加标题和标签
+title('BER vs. SNR');               % 标题
+xlabel('Eb/σ_Z^2 [dB]');             % X 轴标签
+ylabel('Bit Error Rate');            % Y 轴标签
+
+% 网格线和图例
+grid on;                            % 显示网格线
+legend('OTFS'); % 为两条曲线添加图例
+hold off;  % 释放当前图像
