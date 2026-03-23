@@ -1,7 +1,6 @@
 clc; clear; close all;
 
-%% =========================================================
-% Step 5: Multi-frame BER simulation for R-OTFS
+
 %% =========================================================
 rng(1);
 
@@ -13,7 +12,7 @@ modOrder = 16;
 bitsPerSym = log2(modOrder);
 
 snr_dB_list = 0:5:40;
-numFrames = 500;   % 先500，后面可以到1000/2000
+numFrames = 500;   
 
 % Bob channel
 bob.numPaths = 5;
